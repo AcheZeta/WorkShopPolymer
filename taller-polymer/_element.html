@@ -1,0 +1,36 @@
+<link rel="import" href="../polymer/polymer-element.html">
+
+<dom-module id="taller-polymer">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]!</h2>
+  </template>
+
+  <script>
+    /**
+     * `taller-polymer`
+     * 
+     *
+     * @customElement
+     * @polymer
+     * @demo demo/index.html
+     */
+    class TallerPolymer extends Polymer.Element {
+      static get is() { return 'taller-polymer'; }
+      static get properties() {
+        return {
+          prop1: {
+            type: String,
+            value: 'taller-polymer'
+          }
+        };
+      }
+    }
+
+    window.customElements.define(TallerPolymer.is, TallerPolymer);
+  </script>
+</dom-module>
