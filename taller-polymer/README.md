@@ -57,4 +57,9 @@ Se refiere al Web Component
 Importar componente mediante rutas relativas.
 ```link rel="import" href="component-1.html"```
 
+#### HTML Templates
+
+- Fragmentos del DOM.
+- No se renderizan. 
+
 
