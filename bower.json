@@ -1,0 +1,17 @@
+{
+  "name": "todo-Polymer",
+  "homepage": "https://github.com/AcheZeta/Polymer",
+  "authors": [
+    "AcheZeta <ache.mariana@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
